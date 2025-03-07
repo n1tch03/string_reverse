@@ -11,3 +11,9 @@ std::string reverse(std::string s){
   return s;
 }
 
+int main(){
+  std::string s = "hello, welcome to my git hub";
+  std::cout << s << '\n';
+  std::string s2 = reverse(s);
+  std::cout << s2 << '\n';
+}
